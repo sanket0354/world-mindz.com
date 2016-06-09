@@ -12,6 +12,12 @@
 .header_margin {
 	margin-top: 7px;
 }
+/*
+ logo margin
+*/
+#logo_margin_header {
+	margin-top: 5px;
+}
 
 /*
  To set top and botton margin for header buttons 
@@ -20,3 +26,22 @@
 	margin-top: 15px;
 	margin-left: 30px;
 }
+
+/*
+ change font text of the logo
+ change the color to white for half of the logo
+*/
+.navbar-brand h3 {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font: normal 25px 'Cookie', cursive;
+}
+
+/*
+ change color for the half of the logo to blue
+*/
+.navbar-brand span {
+	color: #5383d3;
+}
+
