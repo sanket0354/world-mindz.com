@@ -1,70 +1,19 @@
-/* main declaration */
+/*
+ text editing
+*/
+.footer-distributed p {
+	color: white;
+	font: bold 13px sans-serif;
+	text-align: center;
+	line-height: 20px;
+	letter-spacing: 2px;
+}
+
+/* 
+ footer background color and top/bottom padding
+*/
 .footer-distributed {
 	background-color: #292c2f;
-	font: bold 16px sans-serif;
-	padding: 20px 20px;
-}
-
-.footer-distributed .footer-left, .footer-distributed .footer-center,
-	.footer-distributed .footer-right {
-	display: inline-block;
-}
-
-/* The company logo */
-.footer-distributed h3 {
-	color: #ffffff;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
-}
-
-.footer-distributed h3 span {
-	color: #5383d3;
-}
-
-/* Footer links */
-.footer-distributed .footer-links {
-	color: #ffffff;
-}
-
-.footer-distributed .footer-links a {
-	display: inline-block;
-	text-decoration: none;
-	color: inherit;
-}
-
-.footer-distributed .footer-company-name {
-	color: #8f9296;
-	font-size: 14px;
-}
-
-/* Footer Right */
-.footer-distributed .footer-right {
-	float: right;
-}
-
-.footer-distributed .footer-right .footer-company-about {
-	color: #92999f;
-	font-size: 13px;
-	margin-left: 10px;
-}
-
-.footer-distributed .footer-company-about span {
-	display: block;
-	color: #ffffff;
-	font-weight: bold;
-	margin-bottom: 20px;
-	margin-left: 4px;
-}
-
-.footer-distributed .footer-icons {
-	margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a {
-	display: inline-block;
-	width: 35px;
-	background-color: #33383b;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
