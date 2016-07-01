@@ -1,11 +1,5 @@
 <?php
-
-$servername = "mindworldzcom.ipagemysql.com";
-
-// Username and password are of database
-$username = "default";
-$password = "default";
-$database = "database_1";
+require './variables.php';
 
 // Create connection
 $connection = new mysqli($servername,$username,$password,$database);
@@ -14,7 +8,7 @@ $connection = new mysqli($servername,$username,$password,$database);
 if ($connection->connect_error) {
 	die("Connection failed: " . $connection->connect_error);
 }
-echo "Connected successfully";
+echo "Connected successfully <br>";
 
 
 ?>

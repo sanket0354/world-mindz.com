@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+
+/*
+* heading font for computers
+*/
+@media screen and (min-width: 760px) {
+	.main_body .heading_font {
+		font-family: 'Neucha', cursive;
+		font-size: 30px;
+	}
+}
+
+/*
+ heading font for mobile devices
+*/
+@media only screen and (max-width: 500px) {
+	.main_body .heading_font {
+		font-family: 'Courier New' ', Courier, monospace;
+		font-size: 30px;
+	}
+}
+/*
+* text font
+*/
+.main_body .text_font {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+
+/*
+* font for button
+*/
+.main_body .button_text_font {
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+}
