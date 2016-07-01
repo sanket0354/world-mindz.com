@@ -1,111 +1,123 @@
+<!-- Creates the navigation bar and fixes it so that it moves with scrolling of the page-->
+<nav class="navbar navbar-inverse w3-top">
 
-<!-- Set up the navigation bar -->
-<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+	<div class="container-fluid">
 
-	<!-- Set up text-logo as button -->
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse"
-			data-target=".navbar-ex1-collapse">
-			<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
-			<span class="icon-bar"></span> <span class="icon-bar"></span>
-		</button>
-		<div class="logo_margin_header">
-			<a class="navbar-brand" rel="home" href="/">
-				<h3>
-					Mind<span>Worldz</span>
-				</h3>
-			</a>
+		<div class="navbar-header">
+
+			<!-- creates a toggle-button for navigation bar, when the size of
+                 screen is shrinked for mobile devices -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse"
+				data-target="#myNavbar">
+				<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+					class="icon-bar"></span>
+			</button>
+
+			<a class="navbar-brand" href="#">WebSiteName</a>
+
 		</div>
-	</div>
 
+		<!-- makes the navigation bar to be collapsable for mobile devices -->
+		<div class="collapse navbar-collapse" id="myNavbar">
 
-	<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
 
-		<ul class="nav navbar-nav">
-			<li><div class="header_button_margin">
-					<!-- Set up drop down button / header buton -->
-					<button class="btn btn-primary dropdown-toggle" type="button"
-						data-toggle="dropdown">
-						Home&nbsp;&nbsp;<span class="caret"></span>
-					</button>
-				</div></li>
-			<li>
-				<div class="header_button_margin">
-					<!-- Set up drop down button / header buton -->
-					<button class="btn btn-primary dropdown-toggle" type="button"
-						data-toggle="dropdown">
-						Tutorials&nbsp;&nbsp;<span class="caret"></span>
-					</button>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Contacts</a></li>
+				<li><a href="#">About</a></li>
 
+				<li><a href="javascript:void(0)" onclick="w3_open()">Tutorials <i
+						class="fa fa-caret-down"></i>
+				</a></li>
 
-					<ul class="dropdown-menu">
-						<li><a href="/header.html">HTML</a></li>
-						<li><a href="/header.html">CSS</a></li>
-					</ul>
-				</div>
-			</li>
+			</ul>
 
-			<li><div class="header_button_margin">
-					<!-- Set up drop down button / header buton -->
-					<button class="btn btn-primary dropdown-toggle" type="button"
-						data-toggle="dropdown">
-						Downloads&nbsp;&nbsp;<span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu">
-						<li><a href="#">HTML</a></li>
-						<li><a href="#">CSS</a></li>
-					</ul>
-				</div></li>
+			<!-- Creates search button in the navigation bar -->
+			<!-- Aligns the search button to right in navigation bar -->
+			<ul class="nav navbar-nav navbar-right">
+				<li>
 
-			<li><div class=header_button_margin>
-					<!-- Set up drop down button / header buton -->
-					<button class="btn btn-primary dropdown-toggle" type="button"
-						data-toggle="dropdown">
-						Articles&nbsp;&nbsp;<span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu">
-						<li><a href="#">HTML</a></li>
-						<li><a href="#">CSS</a></li>
-					</ul>
-				</div></li>
+					<form class="navbar-form" role="search"
+						onsubmit="return searchDatabase()">
 
-			<li><div class="header_button_margin">
-					<!-- Set up drop down button / header buton -->
-					<button class="btn btn-primary dropdown-toggle" type="button"
-						data-toggle="dropdown">
-						Contacts&nbsp;&nbsp;<span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu">
-						<li><a href="#">HTML</a></li>
-						<li><a href="#">CSS</a></li>
-					</ul>
-				</div></li>
+						<div class="input-group">
 
-			<li><div class="header_button_margin">
-					<!-- Set up drop down button / header buton -->
-					<button class="btn btn-primary dropdown-toggle" type="button"
-						data-toggle="dropdown">
-						About&nbsp;&nbsp;<span class="caret"></span>
-					</button>
-				</div></li>
+							<input type="text" class="form-control" placeholder="Search"
+								name="srch-term" id="srch-term">
 
-		</ul>
-		<!-- Set up seach button - right of navigation bar -->
-		<div class="header_margin test">
-			<div class="pull-right">
-				<form class="navbar-form" role="search">
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search"
-							name="srch-term" id="srch-term">
-						<div class="input-group-btn">
-							<button class="btn btn-default" type="submit">
-								<i class="glyphicon glyphicon-search"></i>
-							</button>
+							<div class="input-group-btn">
+
+								<!-- Search button icon for search in navigation bar -->
+								<button class="btn btn-default" type="submit">
+									<i class="glyphicon glyphicon-search"></i>
+								</button>
+
+							</div>
+
 						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</div>
 
+					</form>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+</nav>
+
+<!-- creates the menu for dropdowns in the deader -->
+<nav
+	class="w3-dropnav w3-card-2 navbar-fixed-top w3-light-grey w3-hover-white w3-hover-border-blue w3-border"
+	style="display: none" id="headerDropNav">
+
+	<div class="w3-container">
+
+		<span onclick="w3_close()" class="w3-closebtn w3-xlarge"
+			title="Close Menu">&times;</span>
+
+	</div>
+
+	<div class="w3-row-padding w3-padding-bottom">
+
+		<div class="w3-third ">
+			<h3>HTML/CSS</h3>
+			<a href="#">Learn HTML</a> <a href="#">Learn CSS</a> <a href="#">Learn
+				W3.CSS</a>
+		</div>
+
+		<div class="w3-third">
+			<h3>JavaScript</h3>
+			<a href="#">Learn JavaScript</a> <a href="#">Learn jQuery</a> <a
+				href="#">Learn AppML</a>
+		</div>
+
+		<div class="w3-third">
+			<h3>Graphics</h3>
+			<a href="#">Learn Canvas</a> <a href="#">Learn SVG</a>
+		</div>
+
+	</div>
+
+	<br>
+
+</nav>
+
+
+
+<!-- Script to control how dropdown works -->
+<script>
+		var x = document.getElementById("headerDropNav");
+		function w3_open() {
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else {
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+		function w3_close() {
+			x.className = x.className.replace(" w3-show", "");
+		}
+</script>

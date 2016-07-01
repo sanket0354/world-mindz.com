@@ -1,7 +1,9 @@
+@CHARSET "ISO-8859-1";
+
 /*
  text editing
 */
-.footer-distributed p {
+.footer .footer-distributed p {
 	color: white;
 	font: bold 13px sans-serif;
 	text-align: center;
@@ -12,8 +14,8 @@
 /* 
  footer background color and top/bottom padding
 */
-.footer-distributed {
-	background-color: #292c2f;
+.footer .footer-distributed {
+	background-color:#202020;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
