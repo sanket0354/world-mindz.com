@@ -68,10 +68,11 @@
 
 </nav>
 
-<!-- creates the menu for dropdowns in the deader -->
+<!-- creates the menu for dropdowns in the header -->
 <nav
-	class="w3-dropnav w3-card-2 navbar-fixed-top w3-light-grey w3-hover-white w3-hover-border-blue w3-border"
-	style="display: none" id="headerDropNav">
+	class="w3-dropnav w3-card-2 w3-light-grey w3-hover-white w3-hover-border-blue w3-border"
+	style="display: none" id="headerDropNav" data-spy="affix"
+	data-offset-top="00">
 
 	<div class="w3-container">
 
@@ -83,9 +84,9 @@
 	<div class="w3-row-padding w3-padding-bottom">
 
 		<div class="w3-third ">
-			<h3>HTML/CSS</h3>
-			<a href="#">Learn HTML</a> <a href="#">Learn CSS</a> <a href="#">Learn
-				W3.CSS</a>
+			<h3>Git</h3>
+			<a href="http://mind-worldz.com/main/html/git_basics/article.php">Git
+				basics</a>
 		</div>
 
 		<div class="w3-third">
@@ -100,8 +101,6 @@
 		</div>
 
 	</div>
-
-	<br>
 
 </nav>
 
