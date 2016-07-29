@@ -13,11 +13,5 @@ to remove any pre-defined padding in for navigation bar
 @media only screen and (max-width: 766px) {
 	#headerDropNav {
 		margin-top: 270px;
-		
 	}
 }
-
- .affix {
-      top: 0;
-      width: 100%;
-  }

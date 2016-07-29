@@ -4,8 +4,6 @@
 		<div class="main_body">
 			<div class="row">
 				<div class="col-sm-6">
-
-
 					<div
 						class="well w3-card-8	w3-border-grey w3-leftbar w3-rightbar  w3-hover-border-blue">
 						<h1 class="heading_font">Git Basics</h1>
@@ -19,11 +17,9 @@
 								<span class="button_text_font">Click to view </span><span
 									class="glyphicon glyphicon-chevron-right"></span>
 							</button></a>
-
 					</div>
-
-
 				</div>
+
 				<div class="col-sm-6 ">
 					<div
 						class="well w3-card-8	w3-border-grey w3-leftbar w3-rightbar w3-hover-border-blue">
@@ -38,17 +34,11 @@
 						</button>
 
 					</div>
-
-
 				</div>
-
-
 			</div>
 
 			<div class="row">
 				<div class="col-sm-6">
-
-
 					<div
 						class="well w3-card-8	w3-border-grey w3-leftbar w3-rightbar w3-hover-border-blue">
 						<h1 class="heading_font">Java</h1>
@@ -62,9 +52,8 @@
 						</button>
 
 					</div>
-
-
 				</div>
+
 				<div class="col-sm-6">
 					<div
 						class="well w3-card-8	w3-border-grey w3-leftbar w3-rightbar w3-hover-border-blue">
@@ -79,14 +68,8 @@
 						</button>
 
 					</div>
-
-
 				</div>
-
-
 			</div>
-
 		</div>
 	</div>
-
 </div>

@@ -35,6 +35,7 @@
 
 <!-- Self created scripts -->
 <script src="../javascript/search.js"></script>
+<script src="../javascript/search_article_page.js"></script>
 
 
 </head>

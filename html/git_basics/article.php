@@ -36,10 +36,12 @@
 
 <!-- Self created scripts -->
 <script src="../../javascript/search.js"></script>
+<script src="../javascript/search_article_page.js"></script>
+
 
 
 </head>
-<body data-spy="scroll"  data-target="#myScrollspy" data-offset="20">
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 	<div class="header">
 		<?php require '../header.php';?>
 	</div>

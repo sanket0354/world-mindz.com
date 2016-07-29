@@ -1,6 +1,6 @@
 <?php
 
-// Username and password are of database
+// General Username and password are of database
 $username = "default";
 $password = "default";
 $database = "database_1";
