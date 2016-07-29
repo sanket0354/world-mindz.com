@@ -28,29 +28,29 @@
 
 
 <!-- Self-created css style-sheets -->
-<link rel="stylesheet" type="text/css" href="../css/header.css">
-<link rel="stylesheet" type="text/css" href="../css/footer.css">
-<link rel="stylesheet" type="text/css" href="../css/main_body.css">
-<link rel="stylesheet" type="text/css" href="../css/home.css">
+<link rel="stylesheet" type="text/css" href="../../css/header.css">
+<link rel="stylesheet" type="text/css" href="../../css/footer.css">
+<link rel="stylesheet" type="text/css" href="../../css/home.css">
+<link rel="stylesheet" type="text/css" href="../../css/article.css">
+<link rel="stylesheet" type="text/css" href="../../css/article_main.css">
 
 <!-- Self created scripts -->
-<script src="../javascript/search.js"></script>
+<script src="../../javascript/search.js"></script>
 <script src="../javascript/search_article_page.js"></script>
 
 
+
 </head>
-<body>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 	<div class="header">
-		<?php require './header.php';?>
+		<?php require '../header.php';?>
 	</div>
-	<div class="home_image_banner">
-		<?php require './home_image.php';?>
+	<div class="articles">
+		<?php require './article_main.php';?>
 	</div>
-	<div class="main_body">
-		<?php require './main_body.php';?>
-	</div>
+
 	<div class="footer">
-		<?php require './footer.php';?>
+		<?php require '../footer.php';?>
 	</div>
 </body>
 </html>

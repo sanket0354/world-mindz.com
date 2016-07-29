@@ -1,13 +1,17 @@
+//
+to remove any pre-defined padding in for navigation bar
 
-//to remove any pre-defined padding in for navigation bar
-
-.header .navbar, .header .navbar-inverse{
-padding:0px;
-margin:0px;
-
+.header .navbar, .header .navbar-inverse {
+	padding: 0px;
+	margin: 0px;
 }
- 
-#headerDropNav{
- margin-top: 50px;
- }
- 
+
+#headerDropNav {
+	margin-top: 40px;
+}
+
+@media only screen and (max-width: 766px) {
+	#headerDropNav {
+		margin-top: 270px;
+	}
+}

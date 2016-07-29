@@ -4,26 +4,25 @@
 		<div class="main_body">
 			<div class="row">
 				<div class="col-sm-6">
+					<div
+						class="well w3-card-8	w3-border-grey w3-leftbar w3-rightbar  w3-hover-border-blue">
+						<h1 class="heading_font">Git Basics</h1>
+						<p class="text_font">Git is most popular Version Control System
+							used in software development. It increases both speed and
+							security in software development process</p>
 
+						<a href="http://mind-worldz.com/main/html/git_basics/article.php"><button
+								type="button" class="btn btn-primary btn-block">
 
-					<div class="well">
-						<h1 class="heading_font">Bootstrap Tutorial</h1>
-						<p class="text_font">Bootstrap is the most popular HTML, CSS, and
-							JS framework for developing responsive, mobile-first projects on
-							the web.</p>
-
-						<button class="w3-btn-block w3-hover-border-blue w3-border-blue w3-leftbar w3-rightbar">
-						
-							<span class="button_text_font">Click to view </span><span
-								class="glyphicon glyphicon-chevron-right"></span>
-						</button>
-
+								<span class="button_text_font">Click to view </span><span
+									class="glyphicon glyphicon-chevron-right"></span>
+							</button></a>
 					</div>
-
-
 				</div>
-				<div class="col-sm-6">
-					<div class="well">
+
+				<div class="col-sm-6 ">
+					<div
+						class="well w3-card-8	w3-border-grey w3-leftbar w3-rightbar w3-hover-border-blue">
 						<h1 class="heading_font">Junit Framework</h1>
 						<p class="text_font">JUnit is a unit testing framework for the
 							Java programming language. JUnit has been important in the
@@ -35,22 +34,17 @@
 						</button>
 
 					</div>
-
-
 				</div>
-
-
 			</div>
 
 			<div class="row">
 				<div class="col-sm-6">
-
-
-					<div class="well">
+					<div
+						class="well w3-card-8	w3-border-grey w3-leftbar w3-rightbar w3-hover-border-blue">
 						<h1 class="heading_font">Java</h1>
 						<p class="text_font">Java is a general-purpose computer
 							programming language that is concurrent, class-based,
-							object-oriented.</p>
+							object-oriented-Programming.</p>
 
 						<button type="button" class="btn btn-primary btn-block">
 							<span class="button_text_font">Click to view </span><span
@@ -58,11 +52,11 @@
 						</button>
 
 					</div>
-
-
 				</div>
+
 				<div class="col-sm-6">
-					<div class="well">
+					<div
+						class="well w3-card-8	w3-border-grey w3-leftbar w3-rightbar w3-hover-border-blue">
 						<h1 class="heading_font">C Language Tutorial</h1>
 						<p class="text_font">C is the most widely used computer language.
 							It keeps fluctuating at number one scale of popularity along with
@@ -74,14 +68,8 @@
 						</button>
 
 					</div>
-
-
 				</div>
-
-
 			</div>
-
 		</div>
 	</div>
-
-	</div>
+</div>
