@@ -33,6 +33,8 @@
 <link rel="stylesheet" type="text/css" href="../css/footer.css">
 <link rel="stylesheet" type="text/css" href="../css/main_body.css">
 <link rel="stylesheet" type="text/css" href="../css/home.css">
+<link rel="stylesheet" type="text/css" href="../css/search.css">
+<link rel="stylesheet" type="text/css" href="../css/search_main.css">
 
 <!-- Self created scripts -->
 <script src="../javascript/search.js"></script>
@@ -41,17 +43,19 @@
 
 </head>
 <body>
-	<div class="pageContentWrapper">
-		<div class="header">
+   
+	<div class="header">
 		<?php require './header.php';?>
 	</div>
-		<div class="home_image_banner">
-		<?php require './home_image.php';?>
+
+	<div class="search_main">
+		<?php require './search_main.php';?>
+         <?
+            $search_term = $_POST['srch-term'];
+        ?>
+		<?php require './search_database.php';?>
 	</div>
-		<div class="main_body">
-		<?php require './main_body.php';?>
-	</div>
-	</div>
+		
 	<div class="footer">
 		<?php require './footer.php';?>
 	</div>

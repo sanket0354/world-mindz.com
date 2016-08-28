@@ -18,6 +18,10 @@ div.col-sm-9 div {
 	font-size: 20px;
 }
 
+.test .row .col-sm-7 .well {
+	margin-bottom: 100px;
+}
+
 @media screen and (max-width: 810px) {
 	.test {
 		margin: 0px;

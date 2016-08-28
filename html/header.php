@@ -31,13 +31,14 @@
 			<!-- Aligns the search button to right in navigation bar -->
 			<ul class="nav navbar-nav navbar-right">
 				<li>
-					<form class="navbar-form" role="search"
-						onsubmit="return searchDatabase()">
+					<form class="navbar-form"  action="search.php" method="post">
 						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Search"
+							<input type="text" class="form-control" placeholder="Search Our Website"
 								name="srch-term" id="srch-term">
-							<div class="input-group-btn">
+								
 
+								
+							<div class="input-group-btn">
 								<!-- Search button icon for search in navigation bar -->
 								<button class="btn btn-default" type="submit">
 									<i class="glyphicon glyphicon-search"></i>
